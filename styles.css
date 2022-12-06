@@ -1,0 +1,70 @@
+html {
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: #caab57;
+  color: white;
+}
+
+.text-gold {
+  color: #caab57;
+}
+
+.navbar {
+  background-color: #060f29 !important;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+
+}
+
+.logo-image img {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.copyright {
+  background-color: #060f29;
+}
+
+main {
+  background-color: #060f29;
+  min-height: 45vh;
+}
+
+.card {
+  outline: 1px solid #caab57;
+  background-color: #060f29;
+  width: 25rem !important;
+}
+
+.title {
+  margin: 4rem 0rem;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}

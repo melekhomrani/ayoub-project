@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="icon" href="./images/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="landing">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex text-light" href="/acceuil.html">
+            <div class="logo-image">
+              <img src="./images/logo.png" alt="logo" />
+            </div>
+            <div
+              class="logo-name d-flex justify-content-center align-items-center ms-4"
+            >
+              teest
+            </div>
+          </a>
+          <div
+            class="collapse navbar-collapse show justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav gap-sm-3">
+              <a
+                class="nav-link text-light active"
+                aria-current="page"
+                href="/acceuil.html"
+                >Acceuil</a
+              >
+              <a class="nav-link text-light" href="./about.html">a propos</a>
+              <a class="nav-link text-light" href="./contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container d-flex flex-column justify-content-center py-4">
+        <h1 class="title text-gold text-center">Contactez nous</h1>
+        <div class="row justify-content-center">
+          <div class="col-7 text-white">
+            <div class="row">
+              <h3 class="mb-5" style="font-weight: 300;">N'hésitez pas à communiquer en utilisant les coordonnées ci-dessous ou utiliser le formulaire.</h3>
+            </div>
+            <form>
+              <div class="row justify-content-between mb-3">
+                <div class="col-5 pb-2">
+                  <label for="email" class="form-label font-weight-bold">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="col-5 pb-2">
+                  <label for="username" class="form-label">Username</label>
+                  <input type="email" class="form-control" id="username" placeholder="username">
+                </div>
+              </div>
+              <div class="row justify-content-center pt-3 mb-4">
+                <div class="col pb-2">
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" id="Message" rows="3"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mb-3">
+                <button class="btn btn-warning">Envoyer</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-5 text-white" style="font-weight: 300;">
+            <h4 class="fw-300">
+              1 rue Exemple,
+            </h4>
+            <h4 class="fw-300">12345 Quelque Part FRANCE</h4>
+            <br>
+            <h4 class="fw-300">contact@exemple.com</h4>
+            <h4 class="fw-300">(012) 345 67 89</h4>
+            <br>
+            <div class="row justify-content-start">
+              <h4 class="row justify-content-around fw-300">
+                <span class="fw-400 col-5">Lundi</span> <span class="col-5">9:00-21:00</span>
+              </h4>
+              <h4 class="row justify-content-around fw-300">
+                <span class="fw-400 col-5">Mardi</span> <span class="col-5">9:00-21:00</span>
+              </h4>
+              <h4 class="row justify-content-around fw-300">
+                <span class="fw-400 col-5">Mercredi</span> <span class="col-5">9:00-21:00</span>
+              </h4>
+              <h4 class="row justify-content-around fw-300">
+                <span class="fw-400 col-5">Jeudi</span> <span class="col-5">9:00-21:00</span>
+              </h4>
+              <h4 class="row justify-content-around fw-300">
+                <span class="fw-400 col-5">Vendredi</span> <span class="col-5">9:00-21:00</span>
+              </h4>
+              <h4 class="row justify-content-around fw-300">
+                <span class="fw-400 col-5">Samedi</span> <span class="col-5">9:00-21:00</span>
+              </h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-center text-lg-start bg-light text-muted ">
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <div class="me-5 d-none d-lg-block">
+          <span>Contacter nous: </span>
+        </div>
+
+        <div>
+          <a href="#" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="#" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Barber-shop
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Produits</h6>
+              <p class="text-reset">
+                Keratine
+              </p>
+              <p class="text-reset">
+                Proteine
+              </p>
+              <p class="text-reset">
+                Shampoo
+              </p class="text-reset">
+              <p>
+                Lotion
+              </p>
+              
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> rue 1234 Tunis, Tunisia</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@barber-shop.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 216 23 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 216 23 567 89</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="copyright text-center p-4 text-light"
+      >
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="/acceuil.html"
+          >barber-shop.com</a
+        >
+      </div>
+    </footer>
+    <script
+      src="./bootstrap/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
